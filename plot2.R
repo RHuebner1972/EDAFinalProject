@@ -22,7 +22,7 @@ subem <- emdata[emdata$fips=="24510",]
 total <- aggregate(Emissions ~ year, subem, sum)
 
 #
-# create the plot
+# create the plot using the base plotting system
 png("plot2.png")
 barplot(height=total$Emissions, 
         names.arg = total$year, 

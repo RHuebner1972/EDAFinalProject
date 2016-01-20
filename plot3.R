@@ -16,7 +16,7 @@ if (!exists("scc")) {
 # have seen decreases in emissions from 1999-2008 for Baltimore City? 
 # Which have seen increases in emissions from 1999-2008? Use the ggplot2 plotting system to make a plot answer this question.
 
-
+# ust use ggplot2
 library(ggplot2)
 
 # get subset for Baltimore City again, like plot2.R
